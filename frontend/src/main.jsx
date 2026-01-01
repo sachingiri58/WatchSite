@@ -1,13 +1,13 @@
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import App from "./App.jsx";
+import { BrowserRouter } from "react-router-dom";
+import { CartProvider } from "./CartContent"; // adjust path if needed
 
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
-import { BrowserRouter } from 'react-router-dom'
-
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById("root")).render(
   <BrowserRouter>
-  <CarProvider>
-      <App/>
-    </CarProvider>
+    <CartProvider>
+      <App />
+    </CartProvider>
   </BrowserRouter>
-)
+);
