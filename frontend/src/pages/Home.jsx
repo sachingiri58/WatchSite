@@ -4,6 +4,7 @@ import CategoriesHome from "../components/CategoriesHome";
 import ComingSoonWatchesPage from "../components/ComingSoonWatchesPage";
 import FashionPage from "../components/FashionPage";
 import TestiomonialsPage from "../components/TestimonialsPage";
+import Footer from "../components/Footer";
 const Home=()=>{
   return (
     <div>
@@ -12,6 +13,8 @@ const Home=()=>{
 <ComingSoonWatchesPage/>
 <FashionPage/>
 <TestiomonialsPage/>
+<Footer/>
+
     </div>
   )
 }

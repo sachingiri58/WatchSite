@@ -387,7 +387,7 @@ export const watchOfferBannerStyles = {
 export const footerStyles = {
   // Main container
   footer: "relative bg-gradient-to-b from-gray-50 to-gray-100 text-gray-800 overflow-hidden",
-  topBorder: "absolute top-0 left-0 w-full h-1 bg-gradient-to-br from-gray-300 to-gray-500",
+  topBorder: "relative w-full bg-gradient-to-br from-gray-300 to-gray-500",
   patternOverlay: "absolute inset-0 opacity-5",
   
   // Container
