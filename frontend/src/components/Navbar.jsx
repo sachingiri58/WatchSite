@@ -62,11 +62,11 @@ const Navbar = () => {
       setLoggedIn(false);
       setOpen(false);
       navigate("/");
-    } catch {
+    } catch(e) {}
       setLoggedIn(false);
       setOpen(false);
       navigate("/");
-    }
+    
   };
 
   return (

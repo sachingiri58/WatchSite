@@ -476,53 +476,64 @@ export const footerStyles = {
 const loginPageStyles = {
   // Page layout
   pageContainer: "relative min-h-screen font-sans",
-  toastContainer: "", // Empty since ToastContainer handles its own styles
-  
-  // Main content
-  mainContent: "relative z-10 flex justify-center items-center min-h-screen p-4",
-  
+  toastContainer: "",
+
+  // Main content (LEFT aligned)
+  mainContent:
+    "relative z-10 flex justify-start items-center min-h-screen p-4 pl-16",
+
   // Back button
-  backButton: "absolute top-6 cursor-pointer left-6 z-20 bg-gradient-to-r from-gray-300 to-gray-400 backdrop-blur-sm rounded-full p-2 shadow-md flex items-center justify-center transition-transform transform hover:-translate-y-0.5",
+  backButton:
+    "absolute top-6 cursor-pointer left-6 z-20 bg-gradient-to-r from-gray-300 to-gray-400 backdrop-blur-sm rounded-full p-2 shadow-md flex items-center justify-center transition-transform transform hover:-translate-y-0.5",
   backButtonText: "ml-1",
-  
+
   // Login card
-  loginCard: "w-full max-w-md p-8 rounded-2xl bg-white shadow-xl transform transition-all duration-300 hover:shadow-2xl relative overflow-hidden",
-  
+  loginCard:
+    "w-full max-w-md p-8 rounded-2xl bg-white shadow-xl transform transition-all duration-300 hover:shadow-2xl relative overflow-hidden",
+
   // Decorative elements
-  decorativeTopLeft: "absolute -top-10 -left-10 w-20 h-20 bg-black rounded-full opacity-50",
-  decorativeBottomRight: "absolute -bottom-10 -right-10 w-24 h-24 bg-gray-400 rounded-full opacity-50",
-  
+  decorativeTopLeft:
+    "absolute -top-10 -left-10 w-20 h-20 bg-black rounded-full opacity-50",
+  decorativeBottomRight:
+    "absolute -bottom-10 -right-10 w-24 h-24 bg-gray-400 rounded-full opacity-50",
+
   // Card content
   cardTitle: "text-3xl font-semibold text-center text-gray-800 mb-2",
   cardSubtitle: "text-center text-gray-500 mb-8",
-  
+
   // Form
   form: "",
-  
+
   // Form fields
   formField: "mb-5",
   formLabel: "block text-gray-600 text-sm font-medium mb-2",
   inputContainer: "relative",
-  inputIconContainer: "absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none",
+  inputIconContainer:
+    "absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none",
   inputIcon: "h-5 w-5 text-gray-400",
-  
+
   // Input styles
-  inputBase: "w-full pl-10 p-3 text-gray-700 border border-gray-300 rounded-xl focus:ring-2 focus:ring-gray-400 focus:border-transparent transition-all duration-200",
-  passwordInputBase: "w-full pl-10 pr-10 p-3 text-gray-700 border border-gray-300 rounded-xl focus:ring-2 focus:ring-gray-400 focus:border-transparent transition-all duration-200",
-  
+  inputBase:
+    "w-full pl-10 p-3 text-gray-700 border border-gray-300 rounded-xl focus:ring-2 focus:ring-gray-400 focus:border-transparent transition-all duration-200",
+  passwordInputBase:
+    "w-full pl-10 pr-10 p-3 text-gray-700 border border-gray-300 rounded-xl focus:ring-2 focus:ring-gray-400 focus:border-transparent transition-all duration-200",
+
   // Password toggle
   passwordToggle: "absolute inset-y-0 right-0 pr-3 flex items-center",
-  
-  // Checkbox/Remember me
+
+  // Checkbox / Remember me
   rememberMeContainer: "flex items-center mb-6",
   checkboxContainer: "flex items-center h-5",
-  checkbox: "h-4 w-4 text-teal-500 border-gray-300 rounded focus:ring-teal-400",
+  checkbox:
+    "h-4 w-4 text-teal-500 border-gray-300 rounded focus:ring-teal-400",
   checkboxLabelContainer: "ml-3 text-sm",
   checkboxLabel: "font-medium cursor-pointer text-gray-700",
   requiredStar: "text-red-500",
-  
+
   // Submit button
-  submitButton: "w-full py-3 px-4 cursor-pointer font-[pacifico] text-black bg-gradient-to-r from-gray-300 to-gray-400 rounded-full shadow-md text-xl focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50 transition-all duration-300 transform hover:-translate-y-1",
+  submitButton:
+    "w-full py-3 px-4 cursor-pointer font-[pacifico] text-black bg-gradient-to-r from-gray-300 to-gray-400 rounded-full shadow-md text-xl focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-50 transition-all duration-300 transform hover:-translate-y-1",
+
   
   // Sign up link
   signupContainer: "mt-4 text-center",
